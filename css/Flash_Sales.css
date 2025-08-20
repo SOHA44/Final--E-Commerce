@@ -1,3 +1,4 @@
+
 * {
   border: 0;
   margin: 0;
@@ -115,13 +116,10 @@ i {
 .Flash_Sales_container {
   width: 80%;
   margin: auto;
-  height: auto;
-
   padding-top: 10px;
-  /* position: relative; */
 }
-#viewMore{
- margin-top: 100px;
+.viewMore_button{
+ margin-top: 50px;
  padding: 8px 50px;
  border-radius: 10px;
  font-size: 18px;
@@ -130,7 +128,7 @@ i {
  cursor: pointer;
  transition: 1s;
 }
-#viewMore:hover{
+.viewMore_button:hover{
   transform: scale(1.1);
   background-color: brown;
   color: white;
@@ -138,7 +136,7 @@ i {
 .Flash_Sales {
   display: grid;
   grid-template-columns: repeat(4, 24%);
-  grid-gap: 5%;
+  grid-gap: 50px 5%;
 }
 .Flash_Sales_parent {
   transition: 1s;
@@ -331,26 +329,24 @@ i {
 }
 
 
-/* ///////////////////////////////////////////////// */ 
+
 @media screen and (max-width: 767px) {
   .Flash_Sales {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    width: 100%;
+    grid-template-columns: repeat(1, 80%);
+  }
+    
 
-  }
-  .Flash_Sales_container{
-    width: 89%;
-  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .Flash_Sales {
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-gap: 10%;
+    grid-gap: 50px 8%;
   }
-
+ 
 }
 
 @media screen and (max-width: 1024px) {
@@ -359,31 +355,10 @@ i {
   width: auto;
 }
 
-#viewMore{
-  margin-top: 400px;
-}
-} 
-/* /////////Aya //////////////////////// */
- body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
 
-  .Flash_Sales_title p {
-  position: relative;
-  left: 18px;
-  color: brown;
-}
-    .Flash_Sales_title p::before {
-  content: "";
-  border: 5px solid brown;
-  height: 10px;
-  position: absolute;
-  left: -18px;
-  bottom: 0;
-  border-radius: 2px;
-}
+} 
+/* .categories */
+/* ----------------------Aya ----------------------------------------- */
     .categories {
       display: flex;
       align-items: center;      
@@ -523,7 +498,7 @@ i {
     width: 80%;
     height: 100vh;
     padding-top:20px ;
-    margin: auto;
+    margin: 40px;
     text-transform: capitalize;
 }
  .month{
@@ -567,7 +542,7 @@ i {
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,24%);
-    gap: 60px;
+    grid-gap: 0 10px ;
 }
 .section5_images img{
     height: 100px;
@@ -657,6 +632,7 @@ transform: scale(1.1);
 .jbl .speaker .title {
  color: green;
 }
+
 .jbl  img{
   width: 500px;
   height: 500px;
@@ -680,6 +656,10 @@ border: 0;
   box-shadow: 1px 1px  3px 5px rgb(29, 190, 29);
   
 
+}
+.speaker h2:hover{
+  text-shadow: #009933;
+  box-shadow: 10px 10px 5px green;
 }
 
   .flextimer{   
@@ -707,7 +687,7 @@ border: 0;
   }
   @media screen and (max-width: 1024px){
     .d6{
-      margin-top: 700px;
+      margin-top: 900px;
     }
     .jbl{
       display: flex;
@@ -715,6 +695,10 @@ border: 0;
       height: auto;
 
     }
+     .btnview{
+      display: block;
+     
+     }
      .jbl img{
       height: 400px;
       width: 400px;
@@ -724,4 +708,5 @@ border: 0;
       display: grid;
       grid-template-columns: repeat(2,49%);
     }
+
   }
