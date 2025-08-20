@@ -18,8 +18,7 @@ document.querySelectorAll(".box").forEach(button => {
 document.querySelectorAll(".icons").forEach(icon => {
   icon.addEventListener("click", () => {
       if (icon.classList.contains("fa-heart")) {
-        icon.classList.add("active");   
-       icon.classList.toggle("fa-solid");
+       icon.classList.add("fa-solid");
        alert("product added to favourite ❤️ ")
       }
   });
