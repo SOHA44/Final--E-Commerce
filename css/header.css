@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+.mode i{
+  margin: 20px;
+}
 /* /////////////header //////////*/
 
 .top {

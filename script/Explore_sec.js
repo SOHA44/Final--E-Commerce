@@ -105,37 +105,7 @@ hidden_section.style.display = "none";
 view_less_btn.style.display = "none";
 view_more_btn.style.display="flex";
  }
-//  function dark_mode() {
-//   document.body.style.backgroundColor = "black";
-//   document.body.style.color = "white";
-//     document.getElementById("dark").style.color="black";
-//       document.getElementById("light").style.color="white";
-// }
-//  function light_mode() {
-//   document.body.style.backgroundColor = "white";
-//   document.body.style.color = "black";
-//   document.getElementById("light").style.color="white";
-// }
-//  ////////////////////////////////
-// document.querySelectorAll("#dark").forEach(button => {
-//   button.addEventListener("click", () => {
-//    dark_mode();
 
-//   });
-// });
-// document.querySelectorAll("#light").forEach(button => {
-//   button.addEventListener("click", () => {
-//    light_mode();
 
-//   });});// // /////////////setting ///////////////////////
-var setting=document.querySelector(".setting")
-var icon_setting=document.querySelector("#setting_icon")
-var delete_setting=document.querySelector("#DSetting")
-icon_setting.onclick=function(){
-  setting.style.display="block";
-}
-delete_setting.onclick=function(){
-  setting.style.display="none";
-}
 
 
