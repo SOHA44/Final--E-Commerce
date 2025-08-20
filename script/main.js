@@ -8,3 +8,8 @@ document.querySelector(".banner a").addEventListener("click", (e) => {
   e.preventDefault();
   window.open("view-product.html", "_blank");
 });
+document.querySelectorAll(".btn").forEach(button => {
+  button.addEventListener("click", () => {
+    window.open("view-product.html", "_blank");
+  });
+});
