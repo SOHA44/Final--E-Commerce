@@ -328,13 +328,11 @@ i {
 }
 
 
-
 @media screen and (max-width: 767px) {
   .Flash_Sales {
     display: grid;
-    grid-template-columns: repeat(2, 40%);
-    gap:100px;
-  }px
+    grid-template-columns: repeat(1, 80%);
+  }
     
 
 
