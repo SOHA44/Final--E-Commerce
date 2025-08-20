@@ -116,7 +116,7 @@ body {
     justify-content: center;
     padding: 10px;
 }
-/* icons container */
+/* icons  of products */
 
 .products .product .products-container .icons {
   position: absolute;
@@ -127,8 +127,9 @@ body {
   gap: 8px;
   color: red;
 }
-
-
+.icons :active{
+    color: #d31111;
+}
 
 /* View Button */
 .view_btn {
@@ -302,7 +303,6 @@ grid-row: 2/5;
 }
 
 .icon-heading {
- font-family: Poppins, sans-serif;
 font-weight: 600;
 font-style: Bold;
 font-size: 20px;
@@ -311,7 +311,6 @@ line-height: 28px;
 }
 
 .icon-sub-heading {
-font-family: Poppins;
 font-weight: 400;
 font-style: Regular;
 font-size: 14px;

@@ -4,6 +4,7 @@ document.querySelectorAll(".hidden-txt").forEach(button => {
  
   });
 });
+///// go to products page 
 document.querySelectorAll(".view_btn").forEach(button => {
   button.addEventListener("click", () => {
     window.open("view-product.html", "_blank");
@@ -14,7 +15,7 @@ document.querySelectorAll(".box").forEach(button => {
     window.open("view-product.html", "_blank");
   });
 });
-document.querySelectorAll(".icons i").forEach(icon => {
+document.querySelectorAll(".icons").forEach(icon => {
   icon.addEventListener("click", () => {
       if (icon.classList.contains("fa-heart")) {
         icon.classList.add("active");   
