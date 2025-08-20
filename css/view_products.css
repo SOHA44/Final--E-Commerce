@@ -1,0 +1,180 @@
+body{
+    margin: 30px;
+}
+.bar {
+    height: 35px;
+    width: 18px;
+    border-radius: 5px;
+    background-color: rgb(226, 62, 62);
+    margin: 10px;
+}
+.h_sec6 {
+    display: flex;
+    align-items: center;
+    color: rgb(226, 62, 62);
+    margin-bottom: 15px;
+}
+/* Container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Category Card */
+.category {
+    width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category img {
+  width: 100%;
+  height: 300px;
+  object-fit:fill;
+  display: block;
+  border-radius: 15px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover effect */
+.category:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(160, 36, 36, 0.405);
+}
+
+.category:hover img {
+  transform: scale(1.1);
+}
+
+/* Text  */
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: xx-large;
+  text-align: center;
+  opacity: 0;
+}
+.description a {
+  color: white;             
+  text-decoration: none;    
+}
+
+.category:hover .description{
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+#img5 {
+  grid-column: 1 / 3;
+}
+
+#img5 img {
+  height: 300px;
+}
+#smart-phones,#air-buds,#woman,#men,#Accessories,#baby,#sport{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+ 
+
+}
+.parent{
+background-color: rgb(237, 234, 234);
+width: 250px;
+border-radius: 20px;
+text-align: center;
+line-height: 10px;
+
+}
+.parent img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.info p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+.info button,.view-less button,#view button,#view1 button, #view2 button,
+#view3 button, #view4 button ,#view5 button ,#view6 button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+}
+.info:hover button{
+    background-color: rgba(167, 53, 53);
+}
+.parent:hover{
+    box-shadow: 5px 5px 5px rgba(167, 53, 53, 0.671);
+}
+.parent:hover img{
+      transform: scale(1.1);
+}
+.info  i:hover ,.view-more:hover button  {
+    color: red;
+}
+
+#sport2, #baby2, #Accessories2, #woman2, #men2, #phones, #airbuds{
+  display: none; 
+  gap: 20px;
+  margin-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media  (max-width: 1024px) {
+  .container,
+  #smart-phones, #air-buds, #woman, #men, #Accessories, #baby, #sport,
+  #sport2, #baby2, #Accessories2, #woman2, #men2, #phones, #airbuds{
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 20px;
+    width: 100%;
+  }
+    #smart-phones, #air-buds, #woman, #men, #Accessories, #baby, #sport,
+  #sport2, #baby2, #Accessories2, #woman2, #men2, #phones, #airbuds{
+    margin-left: 70px;
+   
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .container,
+  #smart-phones, #air-buds, #woman, #men, #Accessories, #baby, #sport,
+  #sport2, #baby2, #Accessories2, #woman2, #men2, #phones, #airbuds {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    width: 100%;
+   
+  }
+   #smart-phones, #air-buds, #woman, #men, #Accessories, #baby, #sport,
+  #sport2, #baby2, #Accessories2, #woman2, #men2, #phones, #airbuds{
+    margin-left: 50px;
+     width: 350px;
+  }
+   .category{
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+   
+}
+}
+
+
+
+
