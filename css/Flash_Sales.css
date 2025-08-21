@@ -369,7 +369,7 @@ i {
   left: 18px;
   color: brown;
 }
-    .categories span::before {
+    .categories span::before{
   content: "";
   border: 5px solid brown;
   height: 10px;
@@ -479,6 +479,9 @@ i {
     @media (max-width: 768px) {
       .categories, h2, .categories-container {
         margin: 0 20px;
+      }
+      .categories{
+        font-size: 20px;
       }
       .big-box {
         grid-template-columns: repeat(2, 1fr);
@@ -600,6 +603,10 @@ transform: scale(1.1);
  
     opacity: 1;
 }
+.section5{
+  margin: auto;
+  width: 80%;
+}
 /* ----------------Speaker-------------------------------- */
 
 
@@ -689,7 +696,7 @@ border: 0;
   }
   @media screen and (max-width: 1024px){
     .d6{
-      margin-top: 900px;
+      margin-top: 700px;
     }
     .jbl{
       display: flex;

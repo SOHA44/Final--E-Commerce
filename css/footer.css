@@ -103,6 +103,17 @@
   .email-input{
     width: 160px; 
   }
+  .email-input{
+    display: flex;
+    margin: 15px;
+   
+  }
+  .email-input button{
+  color: rgb(0, 255, 94);
+    margin-left: 15px;
+   background-color:  #111;
+
+  }
   .email-input input{
     width:100%;
     padding:14px 10px;
