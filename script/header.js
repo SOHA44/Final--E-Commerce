@@ -12,7 +12,9 @@ delete_setting.onclick=function(){
 // let signUP = document.querySelectorAll(".links .signUP");
 // signUP[0].innerHTML = UserName;
 // signUP[1].innerHTML = UserName;
-//////////////////////    Soha   ////////////////////////////////////////
+//////////////////////    
+// 
+///////////////   Soha   ////////////////////////////////////////
 function dark_mode() {
   document.body.style.backgroundColor = "black";
   document.body.style.color = "white";
